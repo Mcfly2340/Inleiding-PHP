@@ -1,9 +1,6 @@
 <?php
 
-echo "hellow";
+echo "Hello ";
 
-echo "no";
+echo "World";
 
-
-
-phpinfo();
