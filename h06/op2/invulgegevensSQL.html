@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Formulier</title>
+    <style>
+        div {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
 <form action="linkToSQL.php" method="post" name="invulformulier">
-    Voornaam    <input type="text" name="voornaam"><br>
-    Adres       <input type="text" name="adres"><br>
-    E-mail      <input type="email" name="email"><br>
-    Wachtwoord  <input type="password" name="wachtwoord"><br>
+    <div>
+    E-mail      <input type="email" name="email" class="box"><br>
+    Wachtwoord  <input type="password" name="wachtwoord" class="box"><br>
                 <input type="submit" name="knop">
+    </div>
 </form>
 
 </body>

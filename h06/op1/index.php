@@ -2,8 +2,8 @@
 //$dbh = new PDO('mysql:host=localhost;dbname=database;port=3306',
 //'root');
 
-$user = "root";
-$pass = "";
+$user = "SchoolUser";
+$pass = "school";
 
 try {
     $dbh = new PDO('mysql:host=localhost;dbname=school;port=3306', $user, $pass);
