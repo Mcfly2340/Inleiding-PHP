@@ -1,16 +1,5 @@
 <?php
 
-
-
-//een($_POST);
-//
-//function een($input){
-//    echo "<pre>";
-//    echo $_POST['voornaam '];
-//    echo $_POST['wachtwoord'];
-//    echo "</pre>";
-//}
-
 if($_POST['voornaam'] == "") {
     include("formulier.html");
     echo "<br> naam mist nog!";
